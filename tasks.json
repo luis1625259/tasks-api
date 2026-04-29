@@ -1,0 +1,26 @@
+{
+    "tasks": [
+        {
+            "title": "Fazer compras",
+            "description": "Comprar banana, pão e ovos",
+            "owner": "Luis",
+            "status": "A fazer",
+            "comments": [
+                "Comentário 1",
+                "Comentário 2"
+            ],
+            "id": 1
+        },
+        {
+            "title": "Fazer compras",
+            "description": "Comprar banana, pão e ovos",
+            "owner": "Luis",
+            "status": "A fazer",
+            "comments": [
+                "Comentário 1",
+                "Comentário 2"
+            ],
+            "id": 3
+        }
+    ]
+}
