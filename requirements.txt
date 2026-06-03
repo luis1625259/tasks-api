@@ -1,2 +1,14 @@
 fastapi[standard]
 pydantic
+pwdlib[argon2]
+python-dotenv
+sqlmodel
+psycopg[binary]
+fastapi[standard]
+pydantic
+pwdlib[argon2]
+python-dotenv
+sqlmodel
+psycopg[binary]
+pyjwt             # novo — geração e validação de JWT
+python-multipart  # novo — obrigatório para OAuth2PasswordRequestForm

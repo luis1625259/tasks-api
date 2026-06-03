@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  
+
+  
+  <header>
+    <nav class="navbar">
+      <div class="logo">VIAJAR</div>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Quem Somos</a></li>
+        <!-- <li><a href="index2.html">Cadastro</a></li> -->
+        
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Botões de seleção -->
+  <section class="tabs">
+    <input type="radio" id="tab-empresa" name="tab" checked>
+    <label for="tab-empresa">Sou Empresa</label>
+
+    <input type="radio" id="tab-viajante" name="tab">
+    <label for="tab-viajante">Sou Viajante</label>
+
+    <!-- Formulário Empresa -->
+    <div class="tab-content" id="content-empresa">
+      <h2 class="cad">Cadastro - Empresa</h2>
+      <form>
+        <label for="empresa-nome">Nome da Empresa:</label>
+        <input type="text" id="empresa-nome" name="empresa-nome" required>
+
+        <label for="empresa-cnpj">CNPJ:</label>
+        <input type="text" id="empresa-cnpj" name="empresa-cnpj" required>
+
+        <label for="empresa-email">Email:</label>
+        <input type="email" id="empresa-email" name="empresa-email" required>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+
+    <!-- Formulário Viajante -->
+    <div class="tab-content" id="content-viajante">
+      <h2 class="cad">Cadastro - Viajante</h2>
+      <form>
+        <label for="viajante-nome">Nome Completo:</label>
+        <input type="text" id="viajante-nome" name="viajante-nome" required>
+
+        <label for="viajante-cpf">CPF:</label>
+        <input type="text" id="viajante-cpf" name="viajante-cpf" required>
+
+        <label for="viajante-email">Email:</label>
+        <input type="email" id="viajante-email" name="viajante-email" required>
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

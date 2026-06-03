@@ -1,0 +1,197 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Navbar */
+header { background: #0a6fb5; padding: 15px 40px; }
+.navbar { display: flex; justify-content: space-between; align-items: center; }
+.logo { color: #fff; font-size: 22px; font-weight: bold; }
+.menu { list-style: none; display: flex; gap: 20px; }
+.menu li a { text-decoration: none; color: #fff; }
+.menu li a:hover { color: #ffd700; }
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url("./img/onibus.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    height: 100vh; /* ocupa toda a altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 111, 181, 0.6); /* camada azul translúcida */
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+/* Títulos */
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Lista de benefícios */
+.benefits {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+}
+
+.benefits li {
+    margin: 10px 0;
+    padding-left: 30px;
+    position: relative;
+}
+
+.benefits li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #0a6fb5;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffd700;
+    color: #000;
+}
+
+/* CADASTRO */
+
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+/* Navbar */
+header { background: #0a6fb5; padding: 15px 40px; }
+.navbar { display: flex; justify-content: space-between; align-items: center; }
+.logo { color: #fff; font-size: 22px; font-weight: bold; }
+.menu { list-style: none; display: flex; gap: 20px; }
+.menu li a { text-decoration: none; color: #fff; }
+.menu li a:hover { color: #ffd700; }
+
+/* Tabs */
+.tabs {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Esconde os inputs */
+.tabs input[type="radio"] {
+  display: none;
+}
+
+/* Labels como botões */
+.tabs label {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background: #0a6fb5;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tabs label:hover {
+  background: #ffd700;
+  color: #000;
+}
+
+/* Conteúdo das abas */
+.tab-content {
+  display: none;
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+/* Mostrar conteúdo quando selecionado */
+#tab-empresa:checked ~ #content-empresa {
+  display: block;
+}
+#tab-viajante:checked ~ #content-viajante {
+  display: block;
+}
+
+/* Formulários */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #0a6fb5;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background: #ffd700;
+  color: #000;
+}
+.cad{
+    margin-bottom: 30px;
+}
